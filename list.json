@@ -1,0 +1,30 @@
+[
+  {
+    "fraction": "Skaven",
+    "leader": "Ikit The Claw",
+    "unit": "Doomwheel",
+    "moveToReach": 6,
+    "status": true
+  },
+  {
+    "fraction": "Dwarfs",
+    "leader": "Ungrim Ironfist",
+    "unit": "Doomslayer",
+    "moveToReach": 4,
+    "status": false
+  },
+  {
+    "fraction": "Reikland Empire",
+    "leader": "Karl Franz",
+    "unit": "Steam Tank",
+    "moveToReach": 5,
+    "status": false
+  },
+  {
+    "fraction": "Greenskins",
+    "leader": "Skarsnik",
+    "unit": "Goblin Thrower",
+    "moveToReach": 2,
+    "status": false
+  }
+]
