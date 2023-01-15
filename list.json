@@ -1,30 +1,27 @@
 [
   {
-    "fraction": "Skaven",
-    "leader": "Ikit The Claw",
-    "unit": "Doomwheel",
-    "moveToReach": 6,
+    "name": "Dmitriy",
+    "guests": "5",
     "status": true
   },
   {
-    "fraction": "Dwarfs",
-    "leader": "Ungrim Ironfist",
-    "unit": "Doomslayer",
-    "moveToReach": 4,
+    "name": "Steve",
+    "guests": "2",
+    "status": true
+  },
+  {
+    "name": "Mary",
+    "guests": "1",
+    "status": true
+  },
+  {
+    "name": "Mike",
+    "guests": "1",
     "status": false
   },
   {
-    "fraction": "Reikland Empire",
-    "leader": "Karl Franz",
-    "unit": "Steam Tank",
-    "moveToReach": 5,
-    "status": false
-  },
-  {
-    "fraction": "Greenskins",
-    "leader": "Skarsnik",
-    "unit": "Goblin Thrower",
-    "moveToReach": 2,
+    "name": "Jenny",
+    "guests": "5",
     "status": false
   }
 ]
