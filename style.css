@@ -20,25 +20,9 @@ h1 {
 .content {
   font-size: 2.5rem;
   font-family: fantasy;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   margin-top: 2.5rem;
 }
-/* 
-.statusOk {
-  color: orangered;
-}
-
-.statusNotOk {
-  color: darkviolet;
-}
-
-.reached {
-  background-color: cornflowerblue;
-}
-
-.notReached {
-  background-color: greenyellow;
-} */
 
 .confirmed {
   color: red;
@@ -46,4 +30,27 @@ h1 {
 
 .notConfirmed {
   color: blue;
+}
+
+.box {
+  padding: 10px;
+  width: 300px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+}
+
+.box span {
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  padding: 2px;
+  border-radius: 10px;
+  color: red;
+  margin-left: 20px;
+}
+
+.box span:hover {
+  cursor: pointer;
+  background-color: cornsilk;
+  color: black;
 }
