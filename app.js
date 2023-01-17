@@ -45,15 +45,19 @@ window.addEventListener("DOMContentLoaded", () => {
 function addToList() {
   console.log(input1.value);
   console.log(input2.value);
-  const myObj = {
-    name: input1.value,
-    guests: input2.value,
-    status: false,
-  };
-  const val = myList.length;
-  myList.push(myObj);
-  saveToStorage();
-  makeList(myObj, val);
+
+  if (input1.value.length > 3) {
+    const myObj = {
+      name: input1.value,
+      guests: input2.value,
+      status: false,
+    };
+    const val = myList.length;
+    myList.push(myObj);
+    saveToStorage();
+    makeList(myObj, val);
+  }
+  input1.value = "";
 }
 
 function reloader() {
