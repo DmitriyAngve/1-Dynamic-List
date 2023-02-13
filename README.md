@@ -5,4 +5,6 @@ With option to remove items from list and still be able to refresh the page (rel
 
 So, nothing special, only practice with DOM manipulation / using localStorage / working with JSON data.
 
+Unpretentious style included!
+
 <h2 align="center">Thanks for reading this entire post.<h2>
